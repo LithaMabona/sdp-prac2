@@ -6,5 +6,37 @@ package sdp.prac2;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.Arrays;
+import java.util.List;
+
 class AppTest {
+    @Test //Task 1 tests
+    public void testTask1() {
+        List<Integer> a = Arrays.asList(1, 2, 3);
+        List<Integer> b = Arrays.asList(0, 1, -1, 3);
+        int expectedSum = 3;
+        int actualSum = new MyClass().task1(a, b);
+        assertEquals(expectedSum, actualSum);
+
+        b = Arrays.asList(-1);
+        expectedSum = 0;
+        actualSum = new MyClass().task1(a, b);
+        assertEquals(expectedSum, actualSum);
+
+        b = Arrays.asList(3);
+        expectedSum = 0;
+        actualSum = new MyClass().task1(a, b);
+        assertEquals(expectedSum, actualSum);
+
+        b = Arrays.asList();
+        expectedSum = 0;
+        actualSum = new MyClass().task1(a, b);
+        assertEquals(expectedSum, actualSum);
+
+        a = Arrays.asList();
+        b = Arrays.asList(0);
+        expectedSum = 0;
+        actualSum = new MyClass().task1(a, b);
+        assertEquals(expectedSum, actualSum);
+    }
 }

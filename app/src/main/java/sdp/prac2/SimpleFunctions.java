@@ -3,7 +3,7 @@ package sdp.prac2;
 import java.util.*;
 
 public class SimpleFunctions {
-    public int task1(List<Integer> a, List<Integer> b) {
+    public static int task1(List<Integer> a, List<Integer> b) {
         int sum = 0;
         for (int i = 0; i < b.size(); i++) {
             if (b.get(i) < a.size() && b.get(i) >= 0) {
@@ -13,7 +13,7 @@ public class SimpleFunctions {
         return sum;
     }
 
-    public List<String> task2(List<String> s) {
+    public static List<String> task2(List<String> s) {
         List<String> result = new ArrayList<>();
         for (String a : s) {
             if (!a.isEmpty()) {
@@ -36,7 +36,7 @@ public class SimpleFunctions {
         return result;
     }
 
-    public boolean task3(String str) {
+    public static boolean task3(String str) {
         int count = 0;
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == '(') {

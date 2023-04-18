@@ -43,28 +43,28 @@ class AppTest {
     //     SimpleFunctions task4BeingTested = new SimpleFunctions();
 
     //     // Test 1 - both lists have same size
-    //     int[] testlist1_a = {2, 3, 4};
-    //     int[] testlist1_b = {5, 6, 7};
-    //     int[] expected1 = {14, 18, 20};
-    //     int[] result1 = task4BeingTested.task4(testlist1_a, testlist1_b);
-    //     assertArrayEquals(expected1, result1);
+    //     List<Integer> testlist1_a = List.of(2, 3, 4);
+    //     List<Integer> testlist1_b = List.of(5, 6, 7);
+    //     List<Integer> expected1 = List.of(14, 18, 20);
+    //     List<Integer> result1 = task4BeingTested.task4(testlist1_a, testlist1_b);
+    //     assertListEquals(expected1, result1);
 
     //     // Test 2 - list a is larger than list b
-    //     int[] testlist2_a = {2, 3, 4, 5};
-    //     int[] testlist2_b = {5, 6};
-    //     int[] result2 = task4BeingTested.task4(testlist2_a, testlist2_b);
+    //     List<Integer> testlist2_a = List.of(2, 3, 4, 5);
+    //     List<Integer> testlist2_b = List.of(5, 6);
+    //     List<Integer> result2 = task4BeingTested.task4(testlist2_a, testlist2_b);
     //     assertNull(result2);
 
     //     // Test 3 - list b is larger than list a
-    //     int[] testlist3_a = {2, 3};
-    //     int[] testlist3_b = {5, 6, 7};
-    //     int[] result3 = task4BeingTested.task4(testlist3_a, testlist3_b);
+    //     List<Integer> testlist3_a = List.of(2, 3);
+    //     List<Integer> testlist3_b = List.of(5, 6, 7);
+    //     List<Integer> result3 = task4BeingTested.task4(testlist3_a, testlist3_b);
     //     assertNull(result3);
 
     //     // Test 4 - empty lists
-    //     int[] testlist4_a = {};
-    //     int[] testlist4_b = {};
-    //     int[] result4 = task4BeingTested.task4(testlist4_a, testlist4_b);
+    //     List<Integer> testlist4_a = List.of();
+    //     List<Integer> testlist4_b = List.of();
+    //     List<Integer> result4 = task4BeingTested.task4(testlist4_a, testlist4_b);
     //     assertNull(result4);
     // }
 

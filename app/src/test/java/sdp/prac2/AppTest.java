@@ -40,6 +40,7 @@ class AppTest {
         expectedSum = 0;
         actualSum = new SimpleFunctions().task1(a, b);
         assertEquals(expectedSum, actualSum);
+    }
 =======
     @Test 
     void Task3() {
